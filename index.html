@@ -1,18 +1,38 @@
 ---
 layout: default
+title: Home
 ---
 
+<!-- Banner Section -->
+<div style="position: relative; text-align: center; margin-bottom: 40px;">
+  <img src="/assets/images/banner.jpg" alt="Seeking Meaning Banner" style="width: 100%; height: auto; border-radius: 4px;" />
+  <div style="
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3e2f1c;
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(255,255,255,0.8);
+  ">
+    Seeking Meaning
+  </div>
+</div>
+
+<!-- Welcome Message -->
+<div style="text-align: center; font-family: 'Georgia', serif; font-size: 1.2em; margin-bottom: 30px;">
+  <p>Poems, reflections, and the search for quiet truths.</p>
+</div>
+
+<!-- Posts Section -->
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    <div class="post-preview" style="margin-bottom: 40px;">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p style="color: #666;">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <p>{{ post.excerpt }}</p>
+    </div>
   {% endfor %}
 </div>
