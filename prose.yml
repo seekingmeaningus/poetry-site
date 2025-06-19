@@ -39,8 +39,13 @@ prose:
         field:
           element: "textarea"
           value: |
-            Write your poem here.
+            _Start writing your poem below._
 
-            Use line breaks to format it like a stanza.
+            You can use line breaks to separate stanzas.
 
-            *Optional:* You can add italic or **bold** with markdown if you like.
+            Example:
+
+            The moon is bright  
+            It sings at night  
+            In silver words  
+            That fade from sight
