@@ -11,6 +11,13 @@ description: Barely Ablemann's Blog
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/bartPng.png
 
+# updating config yml with prose stuff
+
+collections:
+  poems:
+    output: true
+
+
 #
 # Flags below are optional
 #
