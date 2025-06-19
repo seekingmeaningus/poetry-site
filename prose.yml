@@ -35,3 +35,12 @@ prose:
           label: "Short Description"
           element: "text"
           placeholder: "Optional summary or note"
+      - name: "body"
+        field:
+          element: "textarea"
+          value: |
+            Write your poem here.
+
+            Use line breaks to format it like a stanza.
+
+            *Optional:* You can add italic or **bold** with markdown if you like.
