@@ -30,22 +30,17 @@ prose:
           element: "text"
           placeholder: "YYYY-MM-DD"
           value: "CURRENT_DATETIME"
-      - name: "description"
-        field:
-          label: "Short Description"
-          element: "text"
-          placeholder: "Optional summary or note"
       - name: "body"
         field:
           element: "textarea"
           value: |
             _Start writing your poem below._
 
-            You can use line breaks to separate stanzas.
+            Use line breaks to separate stanzas.
 
             Example:
 
             The moon is bright  
             It sings at night  
-            In silver words  
+            In silver lines  
             That fade from sight
