@@ -1,27 +1,14 @@
-metadata:
-  _poems:
-    - name: "layout"
-      field:
-        element: "hidden"
-        value: "default1"
-    - name: "title"
-      field:
-        label: "Title"
-        element: "text"
-        placeholder: "Enter the title of the poem"
-    - name: "date"
-      field:
-        label: "Date"
-        element: "text"
-        placeholder: "YYYY-MM-DD"
-        value: "CURRENT_DATETIME"
-    - name: "body"
-      field:
-        element: "textarea"
-        value: |
-          _Start writing your poem below._
+---
+layout: default1
+title: "Enter a title here"
+date: CURRENT_DATETIME
+---
 
-          Use line breaks to separate stanzas.
+_Start writing your poem below._
 
-          The moon is bright  
-          It sings at night
+Use line breaks to separate stanzas.
+
+The moon is bright  
+It sings at night  
+In silver lines  
+That fade from sight
