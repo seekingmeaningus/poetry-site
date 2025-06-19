@@ -86,8 +86,3 @@ exclude:
   - README.md
   - CNAME
 
-# updating config yml with prose stuff
-
-collections:
-  poems:
-    output: true
