@@ -9,7 +9,7 @@ name: Seeking Meaning
 description: Barely Ablemann's Blog
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/bartPng.png
+avatar: /images/bartPng.png
 
 #
 # Flags below are optional
