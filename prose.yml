@@ -1,0 +1,37 @@
+prose:
+  siteurl: 'https://seekingmeaning.us'
+  media: 'images'
+  ignore:
+    - _config.yml
+    - CNAME
+    - README.md
+    - LICENSE
+    - style.css
+    - _layouts
+    - _includes
+    - .prose.yml
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default1"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          placeholder: "Enter the title of the poem"
+      - name: "date"
+        field:
+          label: "Date"
+          element: "text"
+          placeholder: "YYYY-MM-DD"
+          value: "CURRENT_DATETIME"
+      - name: "description"
+        field:
+          label: "Short Description"
+          element: "text"
+          placeholder: "Optional summary or note"
