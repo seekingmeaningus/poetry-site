@@ -1,0 +1,27 @@
+metadata:
+  _poems:
+    - name: "layout"
+      field:
+        element: "hidden"
+        value: "default1"
+    - name: "title"
+      field:
+        label: "Title"
+        element: "text"
+        placeholder: "Enter the title of the poem"
+    - name: "date"
+      field:
+        label: "Date"
+        element: "text"
+        placeholder: "YYYY-MM-DD"
+        value: "CURRENT_DATETIME"
+    - name: "body"
+      field:
+        element: "textarea"
+        value: |
+          _Start writing your poem below._
+
+          Use line breaks to separate stanzas.
+
+          The moon is bright  
+          It sings at night
